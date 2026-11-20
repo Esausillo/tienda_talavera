@@ -24,10 +24,67 @@ Proyecto de la materia Desarrollo Móvil Integral, UTNG. Prof. Anastacio Rodríg
 |:--:|:--:|:--:|
 | <img src="screenshots/08_mis_compras.jpg" width="220"> | <img src="screenshots/10_perfil.jpg" width="220"> | <img src="screenshots/11_login_bloqueado.jpg" width="220"> |
 
+### Ver en tu espacio (AR)
+
+| Visor 3D | Realidad aumentada |
+|:--:|:--:|
+| <img src="screenshots/03_ver_en_tu_espacio_3d.jpg" width="220"> | <img src="screenshots/04_ver_en_tu_espacio_ar.jpg" width="220"> |
 
 ### Pruebas
 
 <img src="screenshots/12_flutter_test.png" width="600">
+
+## Rondas TDD
+
+Cada ronda del manual con su ciclo 🔴 rojo (la prueba falla porque falta el código) y 🟢 verde (la prueba pasa).
+
+### Ronda 1. Preparar el proyecto
+
+| 🔴 Rojo | 🟢 Verde |
+|:--:|:--:|
+| <img src="screenshots/ronda1r.png" width="420"> | <img src="screenshots/ronda1v.png" width="420"> |
+
+### Ronda 2. Dinero y producto
+
+| 🔴 Rojo | 🟢 Verde |
+|:--:|:--:|
+| <img src="screenshots/ronda2r.png" width="420"> | <img src="screenshots/ronda2v.png" width="420"> |
+
+### Ronda 3. Excepciones y carrito
+
+| 🔴 Rojo | 🟢 Verde |
+|:--:|:--:|
+| <img src="screenshots/ronda3r.png" width="420"> | <img src="screenshots/ronda3v.png" width="420"> |
+
+### Ronda 4. Validaciones, dirección y usuario
+
+| 🔴 Rojo | 🟢 Verde |
+|:--:|:--:|
+| <img src="screenshots/ronda4r.png" width="420"> | <img src="screenshots/ronda4v.png" width="420"> |
+
+### Ronda 5. La tarjeta: Luhn, marcas y PCI
+
+| 🔴 Rojo | 🟢 Verde |
+|:--:|:--:|
+| <img src="screenshots/ronda5r.png" width="420"> | <img src="screenshots/ronda5v.png" width="420"> |
+
+### Ronda 6. Contratos, pasarela e idempotencia
+
+| 🔴 Rojo | 🟢 Verde |
+|:--:|:--:|
+| <img src="screenshots/ronda6r.png" width="420"> | <img src="screenshots/ronda6v.png" width="420"> |
+
+### Ronda 7. El checkout y la revalidación de precios
+
+| 🔴 Rojo | 🟢 Verde |
+|:--:|:--:|
+| <img src="screenshots/ronda7r.png" width="420"> | <img src="screenshots/ronda7v.png" width="420"> |
+
+### Ronda 8. Cuentas y perfil de usuario
+
+| 🔴 Rojo | 🟢 Verde |
+|:--:|:--:|
+| <img src="screenshots/ronda8r.png" width="420"> | <img src="screenshots/ronda8v.png" width="420"> |
 
 ## Qué hace
 
@@ -99,7 +156,7 @@ Cualquier vigencia futura y CVV de 3 dígitos (4 en Amex).
 Con la app corriendo en el teléfono, abre **otra terminal** en la carpeta del proyecto y ejecuta:
 
 ```powershell
-flutter screenshot -d <id-del-dispositivo> -o screenshots/01_catalogo.png
+flutter screenshot -d <id-del-dispositivo> -o screenshots/01_catalogo.jpg
 ```
 
 Cambia el nombre del archivo por cada captura. Los archivos que hoy están en `screenshots/` son marcadores de posición con los mismos nombres: reemplázalos y el README se actualiza solo.
